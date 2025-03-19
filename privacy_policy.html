@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung / Privacy Policy – Twitch Extension "Artillery"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 2rem;
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .language-switch {
+            margin-bottom: 2rem;
+        }
+        .language-switch button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .section {
+            display: none;
+        }
+        .section.active {
+            display: block;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            document.getElementById("de").classList.remove("active");
+            document.getElementById("en").classList.remove("active");
+            document.getElementById(lang).classList.add("active");
+        }
+        window.onload = function() {
+            switchLanguage('de');
+        }
+    </script>
+</head>
+<body>
+    <div class="language-switch">
+        <button onclick="switchLanguage('de')">Deutsch</button>
+        <button onclick="switchLanguage('en')">English</button>
+    </div>
+
+    <div id="de" class="section">
+        <h1>Datenschutzerklärung für die Twitch Extension "Artillery"</h1>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>
+            Verantwortlich für die Verarbeitung personenbezogener Daten im Rahmen dieser Twitch Extension ist:<br>
+            <strong>Nicola Hahn</strong><br>
+            <strong>nicola@nph-studios.de</strong>
+        </p>
+
+        <h2>2. Welche Daten werden verarbeitet?</h2>
+        <p>Die Twitch Extension verwendet die Funktion <strong>"Identity Linking"</strong>, um den Twitch-Benutzernamen und die zugehörige Twitch-ID im Spiel darzustellen. Dabei werden folgende Daten verarbeitet:</p>
+        <ul>
+            <li>Twitch-Benutzername</li>
+            <li>Twitch-Nutzer-ID</li>
+            <li>Twitch-Profilbild</li>
+        </ul>
+
+        <h2>3. Zweck der Datenverarbeitung</h2>
+        <p>Die Daten werden ausschließlich zur Darstellung des Spielcharakters im Spiel verwendet. Es erfolgt keine Weitergabe an Dritte.</p>
+
+        <h2>4. Rechtsgrundlage der Verarbeitung</h2>
+        <p>Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) bzw. mit Einwilligung über Twitch (Art. 6 Abs. 1 lit. a DSGVO).</p>
+
+        <h2>5. Speicherdauer</h2>
+        <p>Die Daten werden nur temporär während des Spiels verarbeitet und nicht dauerhaft gespeichert.</p>
+
+        <h2>6. Deine Rechte</h2>
+        <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung deiner Daten sowie das Recht auf Widerspruch. Bitte kontaktiere uns unter der oben genannten E-Mail-Adresse.</p>
+
+        <h2>7. Änderungen dieser Datenschutzerklärung</h2>
+        <p>Diese Datenschutzerklärung kann gelegentlich angepasst werden. Die aktuelle Version ist jederzeit unter dieser URL verfügbar.</p>
+
+        <h2>8. Hosting über GitHub Pages</h2>
+        <p>Diese Seite wird über <strong>GitHub Pages</strong> gehostet, einem Dienst der GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA. Beim Aufruf dieser Seite werden Verbindungsdaten (z. B. IP-Adresse, Browserinformationen, Zugriffszeitpunkt) an GitHub übertragen. GitHub ist unter dem EU–US Data Privacy Framework zertifiziert. Weitere Informationen zum Datenschutz bei GitHub finden Sie unter: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">GitHub Privacy Statement</a>.</p>
+    </div>
+
+    <div id="en" class="section">
+        <h1>Privacy Policy for the Twitch Extension "Artillery"</h1>
+
+        <h2>1. Data Controller</h2>
+        <p>
+            The data controller responsible for processing personal data in the context of this Twitch Extension is:<br>
+            <strong>Nicola Hahn</strong><br>
+            <strong>nicola@nph-studios.de</strong>
+        </p>
+
+        <h2>2. What data is processed?</h2>
+        <p>This Twitch Extension uses the <strong>"Identity Linking"</strong> feature to display the Twitch username and associated Twitch ID in the game. The following data is processed:</p>
+        <ul>
+            <li>Twitch username</li>
+            <li>Twitch user ID</li>
+            <li>Twitch profile picture</li>
+        </ul>
+
+        <h2>3. Purpose of data processing</h2>
+        <p>The data is used solely to display the player character in-game. The data is not shared with third parties.</p>
+
+        <h2>4. Legal basis of processing</h2>
+        <p>The data processing is based on Article 6(1)(b) GDPR (performance of a contract) or consent via Twitch (Article 6(1)(a) GDPR).</p>
+
+        <h2>5. Data retention</h2>
+        <p>The data is only processed temporarily during the game and is not stored permanently.</p>
+
+        <h2>6. Your rights</h2>
+        <p>You have the right to access, rectify, delete or restrict the processing of your personal data as well as the right to object. Please contact us at the email address provided above.</p>
+
+        <h2>7. Changes to this Privacy Policy</h2>
+        <p>This Privacy Policy may be updated occasionally. The current version is always available at this URL.</p>
+
+        <h2>8. Hosting via GitHub Pages</h2>
+        <p>This page is hosted using <strong>GitHub Pages</strong>, a service provided by GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA. When accessing this page, connection data (e.g., IP address, browser information, access time) may be transferred to GitHub. GitHub is certified under the EU–US Data Privacy Framework. More information is available in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">GitHub Privacy Statement</a>.</p>
+    </div>
+</body>
+</html>
